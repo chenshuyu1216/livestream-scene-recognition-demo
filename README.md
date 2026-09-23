@@ -1,5 +1,9 @@
 # Livestream Scene Recognition Demo
 
+[![tests](https://github.com/chenshuyu1216/chenshuyu1216-livestream-scene-recognition-demo/actions/workflows/tests.yml/badge.svg)](https://github.com/chenshuyu1216/chenshuyu1216-livestream-scene-recognition-demo/actions/workflows/tests.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A privacy-safe portfolio implementation of a real-time multimodal livestream scene classification workflow.
 
 The project classifies 15-second livestream windows into four categories:
@@ -58,6 +62,20 @@ Evaluate the synthetic example:
 python scripts/evaluate_demo.py data/sample_windows.jsonl
 ```
 
+Expected evaluation summary:
+
+```json
+{
+  "correct": 12,
+  "total": 12,
+  "accuracy": 1.0
+}
+```
+
+This score only verifies that the transparent demo rules behave as expected on
+the included synthetic examples. It is not presented as a learned-model or
+real-world accuracy result.
+
 ## Repository structure
 
 ```text
@@ -97,6 +115,17 @@ This public demo was derived from lessons learned during a one-month AI R&D inte
 
 These are small-sample project results, not claims of general production accuracy. Raw data and the private implementation are not included.
 
+### Public demo versus private internship system
+
+| Area | Public repository | Private internship project |
+| --- | --- | --- |
+| Input | Synthetic ASR and vision text | Real, permission-controlled livestream windows |
+| Classifier | Transparent deterministic rules | Learned semantic classifier with multimodal features |
+| Temporal logic | Included | Used in the real-time pipeline |
+| Media collection | Excluded | Separate controlled collection subsystem |
+| Deployment | Architecture notes only | Linux GPU worker and database delivery |
+| Purpose | Reproducible portfolio demonstration | Internal R&D prototype |
+
 See [methodology](docs/methodology.md), [architecture](docs/architecture.md), and [reported results](docs/results.md) for details and limitations.
 
 ## Privacy and responsible use
@@ -106,4 +135,3 @@ Only synthetic data is included. Before applying the workflow to real streams, o
 ## License
 
 The independently written demo code is released under the MIT License. Third-party models and datasets remain subject to their own licenses.
-
