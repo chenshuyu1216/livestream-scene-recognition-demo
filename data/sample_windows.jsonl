@@ -1,0 +1,13 @@
+{"room_id":"synthetic_singer_01","window_start":"2026-01-01T12:00:00Z","asr_text":"<|BGM|> continuous lyrics about a summer night","visual_description":"A host is singing into a microphone","label":"entertainment"}
+{"room_id":"synthetic_singer_01","window_start":"2026-01-01T12:00:15Z","asr_text":"<|BGM|> more lyrics continue","visual_description":"The performer keeps singing on stage","label":"entertainment"}
+{"room_id":"synthetic_singer_01","window_start":"2026-01-01T12:00:30Z","asr_text":"歌词持续，背景音乐没有中断","visual_description":"主播拿着麦克风唱歌","label":"entertainment"}
+{"room_id":"synthetic_singer_01","window_start":"2026-01-01T12:00:45Z","asr_text":"谢谢大家，下一首歌马上开始","visual_description":"The singer talks briefly while holding a microphone","label":"entertainment"}
+{"room_id":"synthetic_singer_01","window_start":"2026-01-01T12:01:00Z","asr_text":"<|BGM|> 新的歌词开始","visual_description":"A host is singing into a microphone","label":"entertainment"}
+{"room_id":"synthetic_singer_01","window_start":"2026-01-01T12:01:15Z","asr_text":"<|BGM|> 歌词继续","visual_description":"The performer is singing on stage","label":"entertainment"}
+{"room_id":"synthetic_shop_01","window_start":"2026-01-01T13:00:00Z","asr_text":"现在下单可以使用优惠券","visual_description":"The host presents a product to the camera","label":"ecommerce"}
+{"room_id":"synthetic_shop_01","window_start":"2026-01-01T13:00:15Z","asr_text":"点击商品链接，库存有限","visual_description":"Several products are displayed on a table","label":"ecommerce"}
+{"room_id":"synthetic_shop_01","window_start":"2026-01-01T13:00:30Z","asr_text":"buy now and receive a discount","visual_description":"The host demonstrates a product","label":"ecommerce"}
+{"room_id":"synthetic_game_01","window_start":"2026-01-01T14:00:00Z","asr_text":"这一局我们先去击败对手","visual_description":"A game interface fills the screen","label":"gaming"}
+{"room_id":"synthetic_game_01","window_start":"2026-01-01T14:00:15Z","asr_text":"the player enters the next level","visual_description":"Continuous gameplay is visible","label":"gaming"}
+{"room_id":"synthetic_chat_01","window_start":"2026-01-01T15:00:00Z","asr_text":"我们今天随便聊聊天，回答大家的问题","visual_description":"The host is talking to viewers","label":"chatting"}
+

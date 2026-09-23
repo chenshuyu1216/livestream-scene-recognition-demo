@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "livestream-scene-recognition-demo"
+version = "0.1.0"
+description = "Privacy-safe multimodal livestream scene recognition portfolio demo"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Shuyu Chen"}]
+keywords = ["livestream", "multimodal", "scene-classification", "temporal-aggregation"]
+
+[project.scripts]
+livestream-scene-demo = "livestream_scene_demo.cli:main"
+
+[tool.setuptools]
+packages = ["livestream_scene_demo"]
+
